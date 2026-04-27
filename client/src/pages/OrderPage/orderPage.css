@@ -1,0 +1,63 @@
+.mapPlace {
+  background-color: aquamarine;
+  width: 130vh;
+  height: 85vh;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin: 44px 0 0 0;
+  padding: 0;
+}
+
+.drawer {
+  width: 85vh;
+  height: 85vh;
+  padding: 0px 20px;
+  overflow-y: auto; /* Вертикальная прокрутка */
+}
+
+.text1 {
+  text-align: center !important;
+  font-weight: 500 !important;
+  margin-bottom: 10px !important;
+  color: black;
+}
+
+.add-address {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.select-conteiner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.selectBtn {
+  border-radius: 8px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+  padding: 15px 15px 0px 15px;
+  margin: 10px 40px;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+
+.selected {
+  border-width: 3px;
+  box-shadow: 2px 2px 20px black;
+}
+
+.text2 {
+  text-align: right !important;
+  font-weight: 400 !important;
+  margin-bottom: 0px !important;
+  color: black;
+}
